@@ -651,4 +651,8 @@ nav img {
         align-items: center;
 
     }
+
+    .footer-line {
+        width: 25em;
+    }
   }
