@@ -1,0 +1,654 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&family=Rubik+Moonrocks&family=Rubik+Wet+Paint&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Roboto';
+    background-color: #f0f3f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ------------ NAVBAR ------------ */
+
+nav {
+    display: flex;
+    background: linear-gradient(to top, transparent, rgba(0, 0, 0, 0.5));
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 10em;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    margin-top: -1em;
+}
+
+nav img {
+    width: 110px;
+    margin-right: 20em;
+}
+
+.nav-menu-top {
+    display: flex;
+    margin-bottom: -10px;
+    justify-content: flex-end;
+    font-size: 12px;
+
+}
+
+.nav-menu-bottom {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-menu-top p {
+    padding: 0px 15px;
+}
+
+.nav-menu-bottom p {
+    padding: 0px 15px;
+}
+
+.nav-button {
+    background-color: rgba(255, 255, 255, 0.25);
+    color: #ffffff;
+    padding: 0px 2em;
+}
+
+.nav-button-p1 {
+    margin-bottom: -10px;
+}
+
+.nav-button-p2 {
+    font-size: 13px;
+}
+
+/* BANNER 1 */
+
+.banner {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+    z-index: -20;
+  }
+
+  .banner-mobile {
+    display: none;
+  }
+
+  /* COUNTDOWN */
+
+
+.limited-offer {
+    margin-top: -15%;
+    margin-bottom: 8%;
+}
+
+.limited-offer-text {
+    background-color: #ffffff;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 1px 8em;
+}
+
+  #countdown {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(10, 10, 10, 0.5);
+    color: #ffffff;
+    padding: 0.6em 3em;
+    text-align: center;
+  }
+
+  .time-unit:not(:last-child) {
+    border-right: solid 1px #ffffff;
+  }
+
+  .time-unit {
+    padding: 0 20px;
+  }
+
+  .time-value {
+    font-size: 25px;
+  }
+
+  .time-title {
+    font-size: 10px;
+  }
+/* ------------ PROMO TEXT ------------ */
+
+.promo {
+    width: 50em;
+    background-color: #ffffff;
+    padding: 2em 5em;
+    margin-bottom: 3em;
+    margin-top: -5em;
+}
+
+.promo-credits {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.promo-credits p:not(:last-child) {
+    margin-bottom: -25px;
+}
+
+.promo-prices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.promo-text-first {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: -10px;
+}
+
+.promo-amount {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.promo-credit {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.promo-circle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 3em;
+    height: 3em;
+    background-color: rgb(172, 172, 172);
+    color: #ffffff;
+    border-radius: 50%;
+    margin: 0em 3em;
+}
+
+.promo-hr {
+    width: 40em;
+    border: 1px solid #b6b6b6;
+}
+
+.promo-pp {
+    font-weight: 400;
+    margin-bottom: -4px;
+}
+
+.promo-pp-blue {
+    font-size: 30px;
+    font-weight: 400;
+    color: #077ab8;
+}
+
+.promo-blue {
+    color: #077ab8;
+    font-size: 12px;
+    margin-bottom: 4em;
+}
+
+.promo-plus-circle {
+    width: 3em;
+    height: 3em;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    border-radius: 50%;
+}
+
+.promo-rewards {
+    margin-bottom: -6px;
+}
+
+/* ------------ REGISTRATION ------------ */
+.registration {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 8em;
+
+}
+
+.registration button {
+    background-color: #077ab8;
+    border: none;
+    color: #ffffff;
+    padding: 0.7em 5em;
+}
+
+/* ------------ CARDS HEADER ------------ */
+.cards-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards-header-lines {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em 0em;
+}
+
+.cards-header-hr {
+    width: 25em;
+    border: 1px solid #b6b6b6;
+    margin: 0em 1em;
+}
+
+/* ------------ CARD ------------ */
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65em;
+    align-items: stretch;
+    background-color: #ffff;
+    position: relative;
+    margin-bottom: 2em;
+}
+
+.card-text h2 {
+    font-weight: 400;
+    margin-bottom: -6px;
+}
+
+.card-undertitle {
+    font-weight: 500;
+    font-size: 13px;
+    padding-bottom: 1em;
+}
+
+.card-text {
+    padding: 3em 2em;
+    font-size: 15px;
+}
+.card-img {
+    object-fit: cover;
+    width: 28%;
+}
+
+.card-bookings {
+    display: flex;
+}
+
+.card-bookings-title {
+    padding-right: 4em;
+    color: #077ab8;
+}
+
+.card-buttons {
+    display: flex;
+}
+
+.card-buttons-grey {
+    padding: 0.70em 5em;
+    border: none;
+    font-weight: 600;
+    margin-right: 1em;
+}
+
+.card-buttons-black {
+    background-color: black;
+    color: #ffffff;
+    padding: 0.70em 5em;
+    border: none;
+    font-weight: 600;
+    margin-bottom: -1em;
+}
+
+.card-buttons-black-text {
+    font-size: 13px;
+}
+
+/* ------------ SANDALS GUARANTEE ------------ */
+.sandals-guarantee {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 4em;
+    margin-bottom: 6em;
+}
+
+.sandals-guarantee img {
+    width: 25%;
+}
+
+.sandals-guarantee-paragraph {
+    font-size: 14px;
+    width: 55em;
+}
+
+.sandals-guarantee-details {
+    font-size: 14px;
+}
+
+
+/* ------------ FOOTER ------------ */
+
+.footer {
+    background-color: black;
+    color: #ffffff;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+
+}
+
+.footer-row {
+    display: flex;
+    align-items: flex-end;
+    padding: 1em;
+}
+
+.footer-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 2em;
+
+}
+
+.line {
+    content: '';
+    border-right: 1px solid #525151; 
+    margin: 0 1px; 
+    height: 4.3em;
+}
+
+.travel {
+    padding-left: 1em;
+}
+
+.footer-logos img {
+    width: 30px;
+    padding: 10px;
+}
+
+.sandals-contest {
+    padding: 1em;
+}
+
+.sandals-contest img {
+    width: 50%;
+}
+
+.sandals-contest p {
+    color: #077ab8;
+}
+
+.footer-row-inquiries p {
+    margin-right: 5em;
+}
+
+.footer-contact {
+    margin-bottom: 3em;
+}
+
+.footer-contact h1 {
+    font-size: 35px;
+    font-weight: 200;
+    margin-bottom: -5px;
+}
+
+.footer-contact p {
+    color: #525151;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3em
+}
+
+.footer-socials {
+    width: 25px;
+    height: 25px;
+    padding: 1em;
+    border: #525151 solid 1px;
+    border-radius: 5px;
+    margin-right: 1em;
+}
+
+.footer-family-text {
+    color: #525151;
+}
+
+.row-entities img {
+    width: 60%;
+}
+
+.row-entities p {
+    font-size: 12px;
+    color: #525151;
+}
+
+.footer-line {
+    border: 1px solid #525151;
+    width: 70em;
+}
+
+.footer-last-section {
+    padding: 1em;
+}
+
+.card-section {
+    background-color: #2a2a2a; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15em;
+    width: 100%;
+}
+
+.card-section img {
+    border-radius: 10px;
+    width: 13em;
+    margin-right: 2em;
+}
+
+.card-section-text {
+    color: #ffffff;
+    width: 20em;
+}
+
+.card-section-text p {
+    margin-bottom: -4px;
+}
+
+.card-section-small {
+    font-size: 12px;
+}
+
+
+
+/* MOBILE */
+
+@media only screen and (max-width: 850px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    /* Navbar */
+    nav {
+        display: flex;
+        background: linear-gradient(to top, transparent, rgba(0, 0, 0, 0.5));
+        overflow: hidden;
+        position: absolute;
+        width: 100%;
+        height: 7em;
+        justify-content: center;
+        align-items: center;
+        color: #ffffff;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    nav img {
+        width: 70px;
+        margin-right: 0em;
+    }
+
+    .nav-menu-top {
+        display: flex;
+        margin-bottom: -18px;
+        justify-content: center;
+        font-size: 10px;
+    }
+    
+    .nav-menu-bottom {
+        display: flex;
+        justify-content: flex-end;
+        font-size: 12px;
+    }
+    
+    .nav-menu-top p {
+        padding: 0px 8px;
+    }
+
+    .nav-menu-bottom p {
+        padding: 0px 8px;
+    }
+    
+    .nav-button {
+        display: none;
+    }
+
+    /* Banner */
+    .banner {
+        display: none;
+      }
+
+    .banner-mobile {
+        display: flex;
+        max-width: 100%;
+        height: auto;
+        margin: 0;
+        overflow: hidden;
+        }
+
+
+    /* COUNTDOWN */
+
+
+
+    /* PROMO */
+
+    .promo {
+        width: 80%;
+        background-color: #ffffff;
+        padding: 2em 2em;
+        margin-bottom: 3em;
+        margin-top: 0;
+    }
+
+    .promo-credits p:first-child {
+    font-size: 13px;    
+    }
+
+    .promo-amount {
+        font-size: 25px;
+    }
+
+    .promo-credit {
+        font-size: 25px;
+    }
+
+    .promo-circle {
+        margin: 0;
+    }
+
+    .promo-hr {
+        width: 23em;
+    }
+
+    .promo-blue {
+        margin-bottom: 2em;
+    }
+
+    /* REGISTRATION TEXT */
+
+    .registration {
+        width: 90%;
+        margin-bottom: 2em;
+    }
+
+    /* CARDS HEADER */
+
+    .cards-header-hr {
+        width: 5em;
+    }
+
+    /* CARDS */
+
+    .card {
+        display: flex;
+        align-items: center;
+        width: 90%;
+        background-color: #ffff;
+        position: relative;
+        margin-bottom: 2em;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .card-img {
+        object-fit: cover;
+        width: 100%;
+    }
+
+
+    /* SANDALS GUARANTEE */
+
+    .sandals-guarantee {
+        width: 80%;
+    }
+
+    .sandals-guarantee-paragraph {
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .footer-row {
+        display: flex;
+        align-items: flex-start;
+        padding: 1em;
+        width: 30em;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .footer-row-inquiries p {
+        margin-right: 0em;
+    }
+
+    .line {
+        border-right: none;
+    }
+
+    .footer-last-row {
+        align-items: center;
+
+    }
+  }
