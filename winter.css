@@ -548,12 +548,21 @@ nav img {
 
 
     /* COUNTDOWN */
+    .limited-offer {
+        overflow: hidden;
+        width: 70%;
+    }
 
-
+    .registration {
+        overflow: hidden;
+        width: 100%;
+        max-width: 100%;
+    }
 
     /* PROMO */
 
     .promo {
+        overflow: hidden;
         width: 80%;
         background-color: #ffffff;
         padding: 2em 2em;
@@ -588,6 +597,7 @@ nav img {
     /* REGISTRATION TEXT */
 
     .registration {
+        overflow: hidden;
         width: 90%;
         margin-bottom: 2em;
     }
@@ -604,6 +614,7 @@ nav img {
         display: flex;
         align-items: center;
         width: 90%;
+        max-width: 90%;
         background-color: #ffff;
         position: relative;
         margin-bottom: 2em;
@@ -620,12 +631,16 @@ nav img {
     /* SANDALS GUARANTEE */
 
     .sandals-guarantee {
-        width: 80%;
+        overflow: hidden;
+        width: 100%;
+        max-width: 100%;
     }
 
     .sandals-guarantee-paragraph {
         font-size: 15px;
         width: 100%;
+        justify-content: center;
+        align-items: center;
     }
 
     .footer-row {
@@ -647,6 +662,12 @@ nav img {
         border-right: none;
     }
 
+    /* FOOTER */
+    .footer {
+        overflow: hidden;
+        width: 100%;
+        max-width: 100%;
+    }
     .footer-last-row {
         align-items: center;
 
